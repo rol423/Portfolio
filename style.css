@@ -12,8 +12,8 @@ section {
     padding: 40px;
 }
 section { background: #eee; }
-nav { display: flex; justify-content: flex-end; gap: 2em; padding: 40px; }
-main { max-width: 1280px;  margin: 0 auto;}
+nav { position: fixed; top: 0; right: calc((100% - 1280px) / 2); display: flex; justify-content: flex-end; gap: 2em; padding: 40px; }
+main { max-width: 1280px;  margin: 0 auto; padding-bottom: 800px; }
 a { text-decoration: none; }
 a.act   { color: red; }
 header > img { 
