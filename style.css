@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     color: #777;
+    font-family: 'Roboto', sans-serif;
 }
 body { padding: 0 20px;  }
 section { 
@@ -23,6 +24,8 @@ header > img {
  header { background: #ddd;
     display: flex; justify-content: space-between; }
 
+p   { color: #000;}
+h3, p { margin-top: 1em; }
     .glass-object {
         border-radius: 25px;
         backdrop-filter: blur(18px);
