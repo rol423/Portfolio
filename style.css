@@ -14,7 +14,7 @@ body {
 }
 section { 
     border-top: 1px solid #777;
-    padding: 3rem;
+    padding: 2rem 3rem;
 }
 section { background: #eee; }
 nav { position: fixed; top: 0; right: calc((100% - 1280px) / 2); display: flex; justify-content: flex-end; gap: 2rem; padding: 2.5rem; }
@@ -41,3 +41,11 @@ ul { list-style-position: inside; }
         background-image: linear-gradient(45deg, rgba(32,152,255,0.6), rgba(172,50,249,0.6));
         mix-blend-mode: hard-light;
     }
+
+@media only screen and (max-width: 1344px) {
+    nav { right: 2rem; gap: 1.5rem; padding: 1.5rem; }
+    
+}
+@media only screen and (max-width: 767px) {
+    nav { flex-direction: column; }
+}
